@@ -20,7 +20,7 @@ const incomingRequest = (req, res) => {
 
     return res.status(200).json({ msg: msg, data: userProfiles });
   } catch (err) {
-    return res.status(500).json({ msg: err.message`${val}` });
+    return res.status(500).json({ msg: err.message });
   }
 };
 
